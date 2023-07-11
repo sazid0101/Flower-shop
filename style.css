@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.heading1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: cyan;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_img{
+    width: 400px;
+}
+.paragraph1{
+    text-align: left;
+    padding-top: 20px;
+}
+.banner_content{
+    width: 500px;
+}
+.btn{
+    background-color: coral;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: darkslategray;
+}
+.heading2{
+    text-align: center;
+    padding-top: 60px;
+}
+.paragraph2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.feature_section{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+.image_flower{
+    border-radius: 300px;
+    background-color: black;
+}
+.underline_text{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px
+
+}
+.hot_deal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(133, 199, 177);
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.image_flower2{
+    height: 300px;
+    padding: 60px;
+}
