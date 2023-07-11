@@ -53,10 +53,76 @@
     height: 500px;
     align-items: center;
 }
-.image_flower{
-    border-radius: 300px;
-    background-color: black;
+.feature_section .flower-img1 {
+    width: 350px;
+    height: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-right: 24px;
+    margin-left: 40px;
 }
+
+.flower-img1 img {
+    width: 250px;
+    height: 350px;
+    flex-shrink: 0;
+    padding-left: 76px;
+    padding-right: 78px;
+    padding-top: 50px;
+}
+.feature_section .flower-img2 {
+    width: 350px;
+    height: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-right: 24px;
+    margin-left: 40px;
+}
+
+.flower-img2 img {
+    width: 250px;
+    height: 350px;
+    flex-shrink: 0;
+    padding-left: 76px;
+    padding-right: 78px;
+    padding-top: 50px;
+}
+.feature_section .flower-img3 {
+    width: 350px;
+    height: 400px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-right: 24px;
+    margin-left: 40px;
+}
+
+.flower-img3 img {
+    width: 250px;
+    height: 350px;
+    flex-shrink: 0;
+    padding-left: 76px;
+    padding-right: 78px;
+    padding-top: 50px;
+}
+
 .underline_text{
     display: flex;
     justify-content: space-around;
@@ -77,4 +143,82 @@
 .image_flower2{
     height: 300px;
     padding: 60px;
+}
+.image_flower3{
+    display: flex;
+    padding:40px 200px 40px 200px;
+}
+.social_media_image{
+    padding: 10px;
+    height: 250px;
+    width: 220px;
+}
+.heading4{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.paragraph4{
+    text-align: center;
+}
+.subscribe_banner{
+    background-image: url(./image/Rectangle\ 9.png);
+    height:300px;
+    width: 1000px;
+    margin: 30px 80px 50px 170px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.submit{
+    padding-top: 40px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 20px;
+   align-items: center;
+   padding-bottom: 40px;
+   
+}
+
+
+
+
+.foot{
+    background-color: slategray;
+}
+.heading5{
+    text-align: center;
+    font-size: 30px;
+}
+.paragraph5{
+    text-align: center;
+    color: white;
+}
+.paragraph6{
+    text-align: center;
+    color: gainsboro;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: small;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: row-reverse;
+    background-color: antiquewhite;
+}
+.about-head{
+    text-align: center;
+    font-size: 50px;
+  padding-top: 50px;
+}
+.about-img{
+    width: 200px;
+    height: 300px;
+    padding-bottom: 20px;
 }
